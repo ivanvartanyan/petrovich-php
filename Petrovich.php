@@ -17,7 +17,7 @@ class Petrovich {
     const GENDER_MALE = 1; // Мужской
     const GENDER_FEMALE = 2; // Женский
     
-	private $gender = Petrovich::GENDER_ANDROGYNOUS; //Пол male/мужской female/женский
+    private $gender = Petrovich::GENDER_ANDROGYNOUS; //Пол male/мужской female/женский
 
     /**
      * Конструтор класса Петрович

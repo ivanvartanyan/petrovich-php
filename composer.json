@@ -1,0 +1,28 @@
+{
+    "name": "petrovich/petrovich",
+    "description": "Petrovich",
+    "type": "library",
+    "keywords": [
+        "name",
+        "case",
+        "morphology",
+        "gender"
+    ],
+    "homepage": "https://github.com/ivanvartanyan/petrovich-php",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ivanvartanyan/petrovich-php"
+        }
+    ],
+    "require": {
+        "ivanvartanyan/petrovich-php": "dev-master",
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Petrovich\\": "/"
+        }
+    }
+}
